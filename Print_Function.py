@@ -12,7 +12,8 @@ printer = Usb(vendor_id, product_id)
 
 #printer.set(align='center', font='b', width=2, height=2)
 #printer._raw(b'\x1b\x21\x1e')
-printer._raw(b'\xb1\x21\x20')
+# Set alignment and font size (if needed)
+printer.set(align='center', font='b', width=2, height=2)
 #printer._raw(b'\xb1\x40')
 printer.text("Hey There")
 
