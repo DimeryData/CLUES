@@ -1,0 +1,10 @@
+CLI Code
+# Creating virtual Enviroment
+python3 -m venv ~/rfid-env
+
+# Activating virtual Enviroment
+source ~/rfid-env/bin/activate
+
+# Install packages
+pip intsll rpi-lgpio mfrc522
+
